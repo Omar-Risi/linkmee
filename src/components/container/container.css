@@ -1,0 +1,59 @@
+/* Container Component */
+.container { 
+
+  height:80vh;
+  width: 60vw;
+
+  background-color:#fff3;
+}
+
+/* Profile Component */
+.profile {
+  flex:2;
+  display:flex;
+  flex-direction:row;
+}
+
+.profile > .icon-container { 
+  flex:1;
+
+  display:flex;
+  align-items:center;
+  box-sizing:border-box;
+  padding:3vw;
+}
+
+.profile > .icon-container > .icon { 
+  aspect-ratio:1/1;
+  border-radius:50%;
+  width:10vw;
+  background-color:#222;
+
+}
+
+.profile > .user-info { 
+  flex:3;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.profile > .user-info > .username { 
+  color:#fff;
+  font-size:2.5vw;
+}
+
+.profile > .user-info > .user-description { 
+  box-sizing:border-box;
+  padding-left:2vw;
+  color:#fff8;
+}
+
+/* Separator Component */
+.separator {
+  width: 100%;   
+  height:1vh;
+  border-radius:10px;
+
+  background-image:linear-gradient(to right, #16454C 28%, #5FB0BC 50%, #16454C 74%);
+}
