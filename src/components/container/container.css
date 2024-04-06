@@ -57,3 +57,44 @@
 
   background-image:linear-gradient(to right, #16454C 28%, #5FB0BC 50%, #16454C 74%);
 }
+
+/* Links Row */
+.links-row {
+
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  gap: 3vw;
+
+  box-sizing: border-box;
+  padding: 5%;
+
+}
+
+/* Circle Link */
+.circle-link {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  position:relative ;
+  display: block;
+
+  color: white;
+  text-decoration: none;
+}
+
+.circle-link > span {display: block; flex:1; text-align: center;}
+
+.circle-link > .image {
+
+  height: 8vh;
+  aspect-ratio: 1/1;
+  background-color: #222;
+  border-radius: 50%;
+
+}
+
